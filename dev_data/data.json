@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "name": "Promociones",
+    "type": "category",
+    "items": [
+      {
+        "id": 1,
+        "name": "Ultimas ofertas",
+        "type": "sub_category",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Novedades",
+    "type": "category",
+    "items": [
+      {
+        "id": 1,
+        "name": "Esta semana",
+        "type": "sub_category",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "name": "Temporadas",
+    "type": "category",
+    "items": [
+      {
+        "id": 1,
+        "name": "Primavera",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Verano",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Otoño",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Invierno",
+        "type": "sub_category",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "name": "Mochilas",
+    "items": [
+      {
+        "id": 1,
+        "name": "Susuchon o Woot",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Susu",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Kapatera",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Susuainiakajatu",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Bolsos Maikisia",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Piula o Kattowi",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Susu Uttiakajamatu",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Pequeños",
+        "type": "sub_category",
+        "items": []
+      },
+      {
+        "id": 1,
+        "name": "Medianos",
+        "type": "sub_category",
+        "items": [
+          {
+            "id": 0,
+            "name": "Orgullosol",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "signification_tags": ["amor", "suerte", "lucheza"],
+            "colors": ["azul", "amarillo", "blanco"],
+            "patterns": [1, 5],
+            "categories": ["Mochilas", "Susu", "Medianos"],
+            "price": 99.99,
+            "price_unit": "$",
+            "localization": "Riohacha",
+            "weaver_name": "Ana",
+            "weaver_image": "https://weaver_image",
+            "width": 30,
+            "depth": 60,
+            "published": true,
+            "selled": false,
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 1,
+            "name": "HolaChic",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 2,
+            "name": "Amoro",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 3,
+            "name": "Entendí",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 4,
+            "name": "Reinahacha",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 5,
+            "name": "Seguide'oro",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 6,
+            "name": "Clarita",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 7,
+            "name": "Adelantuosa",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 8,
+            "name": "Talentoxica",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          },
+          {
+            "id": 9,
+            "name": "Milagros",
+            "type": "item",
+            "description": "Es la descripción de la mochila.",
+            "price": 99.99,
+            "price_unit": "$",
+            "created_at": "2021-03-18",
+            "updated_at": "2021-03-18"
+          }
+        ]
+      }
+      ,
+      {
+        "id": 1,
+        "name": "Grandes",
+        "type": "sub_category",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "name": "Vestidos",
+    "type": "category",
+    "items": [
+      {
+        "id": 1,
+        "name": "Mantas Wayuu",
+        "type": "sub_category",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "name": "Zapatos",
+    "type": "category",
+    "items": [
+      {
+        "id": 1,
+        "name": "Sandalias",
+        "type": "sub_category",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "name": "Hamacas",
+    "type": "category",
+    "items": []
+  },
+  {
+    "id": 0,
+    "name": "Accesorios",
+    "type": "category",
+    "items": [
+      {
+        "id": 1,
+        "name": "Collares Wayuu",
+        "type": "sub_category",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "name": "Tejidas",
+    "type": "category",
+    "items": []
+  },
+  {
+    "id": 0,
+    "name": "Paquete aprendizaje",
+    "type": "category",
+    "items": []
+  },
+  {
+    "id": 0,
+    "name": "Mi mochila personalizada",
+    "type": "category",
+    "items": []
+  }
+]
+  
+
+
+
+
+

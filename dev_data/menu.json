@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Inicio",
+    "url": "/",
+    "alias": "/inicio"
+  },
+  {
+    "name": "Shop",
+    "url": "/shop"
+  },
+  {
+    "name": "Una Historia",
+    "url": "/historia"
+  },
+  {
+    "name": "Contactos",
+    "url": "/contactos"
+  }
+]
