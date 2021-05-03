@@ -47,8 +47,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: black;
   margin-top: 60px;
-  --main-color: #fcfe8b;
-  --main-light-color: #fffae2;
+  --main-color: #ffb142;
+  --main-light-color: white;
   --accent-light-color: #d7a0a0;
 }
 

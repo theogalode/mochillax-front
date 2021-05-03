@@ -4,7 +4,7 @@
       <a href="/"><span>Mochillax</span></a>
     </div>
     <div class="left">
-      <ul v-for="link in links" v-bind:key="link">
+      <ul v-for="link in links" v-bind:key="link.id">
         <li>
           <a href="link.url">{{ link.name }}</a>
         </li>
@@ -45,7 +45,7 @@ export default {
   height: 4.75em;
   background-color: var(--main-color);
   font-family: "Leckerli One", cursive;
-  box-shadow: 0px 0px 5px grey;
+  /* box-shadow: 0px 0px 5px grey; */
 }
 
 .navbar .label {

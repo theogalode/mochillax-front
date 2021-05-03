@@ -1,18 +1,22 @@
 [
   {
+    "id": 0,
     "name": "Inicio",
     "url": "/",
     "alias": "/inicio"
   },
   {
+    "id": 1,
     "name": "Shop",
     "url": "/shop"
   },
   {
+    "id": 2,
     "name": "Una Historia",
     "url": "/historia"
   },
   {
+    "id": 3,
     "name": "Contactos",
     "url": "/contactos"
   }
