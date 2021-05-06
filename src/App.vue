@@ -40,7 +40,7 @@
     :isShow="showCart"
     v-on:isShow="showDetails = false"
     />
-    <DeliveryData />
+    <!-- <DeliveryData /> //Décommenter pour voir le component si jamais..-->
   </div>
 </template>
 
