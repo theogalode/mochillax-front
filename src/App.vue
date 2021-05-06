@@ -50,7 +50,7 @@ import menu from "../dev_data/menu.json";
 
 import Shop from "./components/Shop.vue";
 import ShopCart from "./components/ShopCart.vue";
-import DeliveryData from "./components/DeliveryData.vue"
+//import DeliveryData from "./components/DeliveryData.vue"
 
 export default {
   name: "App",
@@ -79,8 +79,8 @@ export default {
   },
   components: {
     Shop,
-    ShopCart,
-    DeliveryData
+    ShopCart
+    //DeliveryData
   },
 };
 </script>
