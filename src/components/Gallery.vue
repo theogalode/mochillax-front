@@ -8,9 +8,9 @@
         </p>
       </div>
     </div>
-    <div class="glry-content">
-      <div class="glry-card" v-for="product in category.items" v-bind:key="product.id">
-        <Product v-bind:product="product"/> 
+    <div class="flex-centered">
+      <div class="glry-content">
+        <Product v-for="product in products" v-bind:key="product.id" v-bind:product="product"/>
       </div>
     </div>
   </div>
@@ -18,11 +18,34 @@
 
 <script>
 import Product from "./Product.vue";
+import ProductService from "../services/product.service";
+import ProductModel from "../models/product.model";
 export default {
+  async mounted() {
+    if (this.category.id !== undefined) {
+      ProductService.getAllProductsByCategoryId(this.category.id)
+      .then((result) => {
+        if (result) {
+          for (let i = 0; i < result.length; i++) {
+            const element = new ProductModel(result[i]);
+            this.products.push(element);
+          }
+        }
+      }).catch((err) => {
+        console.log(err); 
+      }); 
+    }
+  },
   name: "Gallery",
+  data () {
+    return {
+      products: [],
+    }
+  },
   components: {
     Product
   },
+  
   props: {
     category: Object,
   },
@@ -30,6 +53,12 @@ export default {
 </script>
 
 <style scoped>
+.flex-centered {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .glry {
   display: flex;
   flex-direction: column;
@@ -40,15 +69,14 @@ export default {
 }
 
 .glry .glry-header {
-  flex: 1;
+
   display: flex;
   background-image: url("https://i.pinimg.com/originals/6e/00/16/6e0016c174b767455aeeb1e43066f008.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
-  max-height: 30vh;
-  min-height: 25vh;
+  height: fit-content;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   text-align: center;
@@ -58,12 +86,13 @@ export default {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background: linear-gradient(0.55turn,rgba(255, 177, 66, 1), rgba(33, 140, 116,0.6));
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 26px;
+  width: 100%;
+  height: fit-content;
 }
 
 .filter::before {
@@ -89,26 +118,14 @@ export default {
 }
 
 .glry .glry-content {
-  flex: 4;
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
+  flex: 5;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  width: fit-content;
   padding: 0;
   margin: 0;
 }
 
-.glry .glry-content > .glry-card {
-  flex-grow: 4;
-  margin: 20px;
-  border-radius: 20px;
-  max-width: 230px;
-  background-color: var(--main-color);
-}
+
 </style>

@@ -7,10 +7,10 @@ export default new Router({
   mode: "history",
   routes: [
     {
-      path: "/",
+      path: "/shop",
       alias: "/shop",
       name: "shop",
-      component: () => import("./components/shop")
+      component: () => import("./components/Shop")
     }
   ]
 });

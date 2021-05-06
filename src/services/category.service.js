@@ -17,11 +17,6 @@ class CategoryService {
     return response.data;
   }
 
-  async getAllProductsByCategoryId(id) {
-    let response = await this.axios.get(`/categories/${id}/products`, {});
-    return response.data;
-  }
-
   async getById(id){
     let response = await this.axios.get(`/categories/${id}`, {});
     return response.data;
